@@ -15,6 +15,7 @@
 		1F9BFE442089D595004241E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9BFE432089D595004241E5 /* main.m */; };
 		1F9BFE4E2089D595004241E5 /* SusiseStringCopyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9BFE4D2089D595004241E5 /* SusiseStringCopyTests.m */; };
 		1F9BFE592089D595004241E5 /* SusiseStringCopyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9BFE582089D595004241E5 /* SusiseStringCopyUITests.m */; };
+		1F9BFE6B2089DC09004241E5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9BFE6A2089DC09004241E5 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1F9BFE542089D595004241E5 /* SusiseStringCopyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SusiseStringCopyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F9BFE582089D595004241E5 /* SusiseStringCopyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SusiseStringCopyUITests.m; sourceTree = "<group>"; };
 		1F9BFE5A2089D595004241E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9BFE692089DC09004241E5 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1F9BFE6A2089DC09004241E5 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				1F9BFE352089D594004241E5 /* AppDelegate.m */,
 				1F9BFE372089D594004241E5 /* ViewController.h */,
 				1F9BFE382089D594004241E5 /* ViewController.m */,
+				1F9BFE692089DC09004241E5 /* Person.h */,
+				1F9BFE6A2089DC09004241E5 /* Person.m */,
 				1F9BFE3A2089D594004241E5 /* Main.storyboard */,
 				1F9BFE3D2089D595004241E5 /* Assets.xcassets */,
 				1F9BFE3F2089D595004241E5 /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				1F9BFE392089D594004241E5 /* ViewController.m in Sources */,
 				1F9BFE442089D595004241E5 /* main.m in Sources */,
+				1F9BFE6B2089DC09004241E5 /* Person.m in Sources */,
 				1F9BFE362089D594004241E5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
